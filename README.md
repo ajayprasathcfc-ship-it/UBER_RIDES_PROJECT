@@ -3,7 +3,10 @@
 Uber Ride Analysis using Data Science
 Dataset Description
 
+
 The dataset used in this project contains historical Uber ride information recorded over a period of time. Each row represents a single Uber trip with details related to time, distance, category, and purpose of the ride.
+
+
 
 Dataset Features:
 
@@ -36,6 +39,10 @@ WEEKDAYS – Day of the week
 MINUTES – Duration of the ride
 
 The dataset consists of 1099 ride records and 13 columns after preprocessing.
+
+
+
+
 
  Data Preprocessing
 
@@ -70,6 +77,10 @@ df.describe()
 df.isnull().sum()
 
 These steps helped create a clean and structured dataset suitable for analysis.
+
+
+
+
 
 Exploratory Data Analysis (EDA)
 
@@ -109,6 +120,10 @@ Outliers in ride distance and duration
 
 All visualizations were created using Matplotlib and Seaborn libraries.
 
+
+
+
+
 Key Insights
 
 Based on the analysis, the following insights were observed:
@@ -127,6 +142,9 @@ Certain pickup locations appear frequently, indicating high-demand zones
 
 Long-distance rides exist as outliers and may represent special trips
 
+
+
+
 Tools & Libraries Used
 
 Python
@@ -140,6 +158,9 @@ Matplotlib
 Seaborn
 
 Jupyter Notebook
+
+
+
 
 Conclusion
 
